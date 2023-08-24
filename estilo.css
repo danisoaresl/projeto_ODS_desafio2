@@ -1,0 +1,86 @@
+.topo {
+    background: url("imagens/peixinhos.jpg");
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    margin: 50px;
+    font: bold; 
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    
+}
+
+.conteudo {
+    padding: 10px;
+    padding-left: 30px;
+    margin: 50px;
+    font: bold; 
+    color: black;
+    
+}
+
+.site {
+ 
+    padding-left: 10%;
+    padding-right: 10%;
+    background: url("imagens/fundo.jpg");
+    height: 100%;
+    background-image: cover;
+}
+
+@media screen and (min-width: 768px) { 
+    .topo {
+            }
+    .conteudo {
+    }
+  }
+
+  #acao{
+    color: white;
+    border: 1px white solid;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .icone{
+    width:51px;
+  }
+
+  section{
+    padding: 20px;
+    float: left;
+  }
+
+  .destaque{
+    background-color: #3ec8c1;
+  }
+
+  .colunadefault{
+    float: left;
+    padding: 0 5%;
+    position: relative;  
+  }
+
+  .coluna1{
+    width: 40%;
+}
+  
+  .coluna2{
+    width: 15%;
+  }
+
+  .coluna3{
+    width:29%
+  }
+  
+  .justificado{
+    text-align: justify;
+  }
+
+  .centralizado{
+    text-align: center;
+  }
+
+
