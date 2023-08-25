@@ -57,6 +57,11 @@
     background-color: #3ec8c1;
   }
 
+  .terraverde{
+    width: 90%;
+    
+  }
+
   .colunadefault{
     float: left;
     padding: 0 5%;
@@ -72,7 +77,8 @@
   }
 
   .coluna3{
-    width:29%
+    width:30%;
+    padding:0 2%;
   }
   
   .justificado{
@@ -81,6 +87,10 @@
 
   .centralizado{
     text-align: center;
+  }
+
+  .centralizado div{
+    float:left;
   }
 
 
