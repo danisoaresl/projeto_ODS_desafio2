@@ -3,8 +3,8 @@
     padding: 10px;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 10%;
-    margin: 50px;
+    padding-top: 0%;
+    margin: 0px;
     font: bold; 
     font-size: 25px;
     color: white;
@@ -57,9 +57,25 @@
     background-color: #3ec8c1;
   }
 
+  .destaque1{
+    background-color:yellow;
+  }
+
+  .destaque2{
+    background-color:greenyellow;
+  }
+
+  .destaque3{
+    background-color: pink    ;
+  }
+
   .terraverde{
-    width: 90%;
-    
+    width:50%;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+
   }
 
   .colunadefault{
@@ -77,8 +93,8 @@
   }
 
   .coluna3{
-    width:30%;
-    padding:0 2%;
+    width:50%;
+    padding-right: 40%;
   }
   
   .justificado{
@@ -89,8 +105,14 @@
     text-align: center;
   }
 
-  .centralizado div{
-    float:left;
-  }
+.mapa{
+    width:50%;   
+}
 
+#ecopontos{
+    width:50%;
+}
 
+#projeto{
+    width:90%;  
+}
