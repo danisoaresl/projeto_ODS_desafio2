@@ -1,3 +1,40 @@
+html, body{
+    margin:0;
+}
+
+header{
+background-color: white;
+color: black;
+height:60px;
+width:100%;
+position:relative;
+z-index: 10;
+}
+
+#logo {
+width: 70px;
+position: absolute;
+top: 10px;
+margin-left: 5%;
+}
+
+#menu { 
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    color: grey;
+}
+
+li {
+    float: left;
+    padding: 10px;
+
+}
+
+li:hover{
+    background-color: white;
+}
+
 .topo {
     background: url("imagens/peixinhos.jpg");
     padding: 10px;
@@ -40,7 +77,6 @@
 
   #acao{
     color: white;
-    border: 1px white solid;
     padding: 10px 10px 10px 10px;
   }
 
@@ -55,14 +91,6 @@
 
   .destaque{
     background-color: #3ec8c1;
-  }
-
-  .destaque1{
-    background-color:yellow;
-  }
-
-  .destaque2{
-    background-color:greenyellow;
   }
 
   .destaque3{
@@ -109,10 +137,29 @@
     width:50%;   
 }
 
-#ecopontos{
-    width:50%;
+#conteudo{
+    width:90%;
 }
 
 #projeto{
     width:90%;  
+}
+
+#decomposicao{
+    width:90%;
+}
+
+#ecopontos{
+    width:50%;
+}
+
+#sobremim{
+    width:90%;
+}
+
+
+footer{
+    width: 90%;
+    text-align: center;
+    float: left;
 }
